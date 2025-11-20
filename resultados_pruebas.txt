@@ -1,0 +1,79 @@
+============================================================
+AQUAPATH - PRUEBA DE ALGORITMOS
+============================================================
+
+1. Cargando datasets...
+   ✓ Comunidades cargadas: 20
+   ✓ Pozos cargados: 10
+
+2. Inicializando optimizador...
+   ✓ Optimizador creado
+
+3. PRUEBA 1: Algoritmo MST (Kruskal)
+------------------------------------------------------------
+   - Construyendo grafo completo...
+   ✓ Grafo construido: 23 nodos, 120 aristas
+   - Aplicando algoritmo de Kruskal...
+
+   RESULTADOS:
+   ✓ Costo Total: S/ 922,845.48
+   ✓ Distancia Total: 51.27 km
+   ✓ Nodos en MST: 23
+   ✓ Aristas en MST: 22
+   ✓ Pozos utilizados: 8
+   ✓ Comunidades conectadas: 15
+   ✓ Tiempo de ejecución: 0.000283 segundos
+   ✓ Complejidad: O(E log E)
+   ✓ Eficiencia vs grafo completo: +81.67%
+
+4. PRUEBA 2: Algoritmo Híbrido (Dijkstra + Kruskal)
+------------------------------------------------------------
+   - Seleccionando 3 mejores pozos por caudal...
+   - Ejecutando optimización híbrida...
+
+   RESULTADOS:
+   ✓ Pozos seleccionados: PZ002, PZ007, PZ009
+   ✓ Costo Total: S/ 313,081.58
+   ✓ Distancia Total: 17.39 km
+   ✓ Comunidades conectadas: 15
+   ✓ Tiempo de ejecución: 0.003656 segundos
+
+5. PRUEBA 3: Optimización con Presupuesto Limitado
+------------------------------------------------------------
+   - Presupuesto máximo: S/ 200,000
+   - Aplicando Kruskal con restricción de presupuesto...
+
+   RESULTADOS:
+   ✓ Costo Total: S/ 182,592.70
+   ✓ Presupuesto respetado: Sí
+   ✓ Utilización del presupuesto: 91.3%
+   ✓ Comunidades conectadas: 15
+   ✓ Aristas en red: 14
+
+6. PRUEBA 4: Comparación por Tipo de Servicio
+------------------------------------------------------------
+
+   Tipo: EMERGENCIA
+   - Comunidades: 15
+   - Costo: S/ 922,845.48
+   - Tiempo: 0.000231s
+
+   Tipo: NORMAL
+   - Comunidades: 5
+   - Costo: S/ 806,182.01
+   - Tiempo: 0.000113s
+
+   Tipo: TODOS
+   - Comunidades: 20
+   - Costo: S/ 994,086.24
+   - Tiempo: 0.000239s
+
+============================================================
+VALIDACIÓN COMPLETADA EXITOSAMENTE
+============================================================
+
+✅ Todos los algoritmos funcionan correctamente
+✅ Los resultados son consistentes
+✅ Las restricciones de presupuesto son respetadas
+✅ La aplicación está lista para uso
+
