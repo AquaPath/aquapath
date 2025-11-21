@@ -7,6 +7,7 @@ import numpy as np
 import networkx as nx
 from typing import List, Tuple, Dict
 import time
+import pandas as pd
 
 
 class UnionFind:
@@ -46,6 +47,11 @@ class WaterNetworkOptimizer:
         """
         self.communities = communities_data
         self.wells = wells_data
+        # Convertir Caudal_Lps de string a float
+        self.wells['Caudal_Lps'] = pd.to_numeric(
+            self.wells['Caudal_Lps'].astype(str).str.replace(',', '.'), 
+            errors='coerce'
+        )
         self.graph = None
         self.mst = None
         self.execution_time = 0
@@ -61,9 +67,16 @@ class WaterNetworkOptimizer:
         Returns:
             Distancia en kilómetros
         """
-        return np.sqrt((coord1[0] - coord2[0])**2 + (coord1[1] - coord2[1])**2) / 1000
+        #return np.sqrt((coord1[0] - coord2[0])**2 + (coord1[1] - coord2[1])**2) / 1000
+        
+    
+        # Calcular diferencias absolutas
+        diff_x = abs(coord1[0] - coord2[0])
+        diff_y = abs(coord1[1] - coord2[1])
+        return np.sqrt(diff_x**2 + diff_y**2) / 1000
     
     def calculate_cost(self, distance_km, terrain_factor=1.2):
+        
         """
         Calcula costo de instalación de tubería
         
@@ -108,8 +121,20 @@ class WaterNetworkOptimizer:
         for idx, well in operational_wells.iterrows():
             # Convertir lat/lon a UTM aproximado (zona 18S para Perú central)
             # Fórmula simplificada: Este ≈ 500000 + (lon + 77.5) * 111320
-            coord_este = 213000 + (well['Longitud'] + 77.76) * 111320
-            coord_norte = 8805000 + (well['Latitud'] + 10.75) * 110540
+            #coord_este = 213000 + (well['Longitud'] + 77.76) * 111320
+            #coord_norte = 8805000 + (well['Latitud'] + 10.75) * 110540
+            # Convertir strings con coma a float
+            lat = float(str(well['Latitud']).replace(',', '.'))
+            lon = float(str(well['Longitud']).replace(',', '.'))
+
+            """ coord_este = 213000 + (lon + 77.76) * 111320
+            coord_norte = 8805000 + (lat + 10.75) * 110540 """
+            # Usar directamente las coordenadas 
+            coord_este = lon * 111320  # Convertir grados a metros
+            coord_norte = lat * 110540  # Convertir grados a metros 
+            """ # Para pozos, usa las mismas coordenadas que para comunidades
+            coord_este = abs(lon) * 111320
+            coord_norte = abs(lat) * 110540 """
             
             G.add_node(
                 well['ID_Pozo'],
@@ -122,7 +147,7 @@ class WaterNetworkOptimizer:
                 distrito=well['Distrito']
             )
         
-        # Agregar nodos de comunidades
+        """ # Agregar nodos de comunidades
         for idx, comm in filtered_communities.iterrows():
             node_id = f"COM_{comm['UUID']}"
             G.add_node(
@@ -130,9 +155,28 @@ class WaterNetworkOptimizer:
                 type='community',
                 coord_este=comm['COORDENADA_ESTE'],
                 coord_norte=comm['COORDENADA_NORTE'],
-                demanda=comm['CANTIDAD_DISTRIBUCIÓN'],
+                demanda=comm['CANTIDAD_DISTRIBUCION'],
                 viviendas=comm['VIVIENDAS_BENEFICIADAS'],
-                zona=comm['ZONA'],
+                zona=comm['ZONA-COMUNIDAD'],
+                distrito=comm['DISTRITO']
+            ) """
+
+        # Agregar nodos de comunidades
+        for idx, comm in filtered_communities.iterrows():
+            node_id = f"COM_{comm['UUID']}"
+    
+            # Convertir coordenadas a float
+            coord_este_comm = float(str(comm['COORDENADA_ESTE']).replace(',', '.'))
+            coord_norte_comm = float(str(comm['COORDENADA_NORTE']).replace(',', '.'))
+    
+            G.add_node(
+                node_id,
+                type='community',
+                coord_este=coord_este_comm,
+                coord_norte=coord_norte_comm,
+                demanda=comm['CANTIDAD_DISTRIBUCION'],
+                viviendas=comm['VIVIENDAS_BENEFICIADAS'],
+                zona=comm['ZONA-COMUNIDAD'],
                 distrito=comm['DISTRITO']
             )
         

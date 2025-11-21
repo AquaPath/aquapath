@@ -1,11 +1,501 @@
 ID_Pozo,Distrito,Latitud,Longitud,Caudal_Lps,Profundidad_m,Costo_Instalación_USD,Estado,Año_Construcción,Uso_Principal
-PZ001,BARRANCA,-10.7458,-77.7612,45.5,85,125000,Operativo,2015,Doméstico
-PZ002,BARRANCA,-10.7423,-77.7589,52.3,92,138000,Operativo,2017,Doméstico
-PZ003,PARAMONGA,-10.6892,-77.8234,38.7,78,110000,Operativo,2014,Mixto
-PZ004,PARAMONGA,-10.6945,-77.8156,41.2,80,115000,Mantenimiento,2016,Doméstico
-PZ005,PATIVILCA,-10.6834,-77.7892,35.8,72,98000,Operativo,2018,Agrícola
-PZ006,PATIVILCA,-10.6778,-77.7934,43.6,88,128000,Operativo,2019,Doméstico
-PZ007,SUPE,-10.8012,-77.7345,48.9,95,145000,Operativo,2020,Doméstico
-PZ008,SUPE,-10.7956,-77.7289,39.4,82,118000,Inactivo,2013,Industrial
-PZ009,BARRANCA,-10.7512,-77.7534,46.2,87,130000,Operativo,2021,Doméstico
-PZ010,PARAMONGA,-10.6889,-77.8201,40.5,79,112000,Operativo,2022,Mixto
+PZ001,Barranca,"-10,748447","-77,742478","14,49",48,28910,Inactivo,2009,Doméstico
+PZ002,Barranca,"-10,7552","-77,769922","115,81",243,160166,Inactivo,2022,Doméstico
+PZ003,Barranca,"-10,730904","-77,759019","103,94",217,105301,Inactivo,2001,Doméstico
+PZ004,Barranca,"-10,742217","-77,730113","30,91",233,78401,Operativo,1987,Industrial
+PZ005,Barranca,"-10,730545","-77,737039","41,83",188,83953,Inactivo,2005,Industrial
+PZ006,Barranca,"-10,742583","-77,752401","77,65",36,54045,Operativo,2009,Industrial
+PZ007,Barranca,"-10,744802","-77,760676","3,73",250,95516,Mantenimiento,2009,Industrial
+PZ008,Barranca,"-10,749733","-77,743989","94,38",44,82516,Inactivo,2003,Doméstico
+PZ009,Barranca,"-10,756507","-77,758334","14,88",139,69901,Mantenimiento,1983,Doméstico
+PZ010,Barranca,"-10,754837","-77,730344","81,94",133,94334,Inactivo,2009,Doméstico
+PZ011,Barranca,"-10,730898","-77,765667","74,92",222,132076,Mantenimiento,2009,Mixto
+PZ012,Barranca,"-10,740818","-77,751198","51,06",113,59955,Mantenimiento,2002,Agrícola
+PZ013,Barranca,"-10,755144","-77,741064","46,04",149,79228,Operativo,1987,Agrícola
+PZ014,Barranca,"-10,747564","-77,767567","11,46",69,34374,Mantenimiento,1986,Mixto
+PZ015,Barranca,"-10,74546","-77,754426","27,94",67,46672,Inactivo,1986,Agrícola
+PZ016,Barranca,"-10,731136","-77,758512","44,88",61,54467,Inactivo,2019,Agrícola
+PZ017,Barranca,"-10,737871","-77,764859","70,54",30,62725,Inactivo,2009,Industrial
+PZ018,Barranca,"-10,755194","-77,766073","29,02",117,47953,Mantenimiento,2014,Mixto
+PZ019,Barranca,"-10,731953","-77,744963","32,69",203,78484,Inactivo,2006,Mixto
+PZ020,Barranca,"-10,75661","-77,761235","113,26",184,142843,Operativo,2013,Agrícola
+PZ021,Barranca,"-10,734252","-77,742297","71,63",111,68400,Inactivo,1980,Industrial
+PZ022,Barranca,"-10,758629","-77,740578","37,29",187,90961,Mantenimiento,1994,Doméstico
+PZ023,Barranca,"-10,734197","-77,768939","97,92",52,88791,Operativo,1993,Mixto
+PZ024,Barranca,"-10,750613","-77,735458","47,95",126,81488,Operativo,2015,Mixto
+PZ025,Barranca,"-10,751985","-77,76213","22,6",136,50215,Operativo,1995,Agrícola
+PZ026,Barranca,"-10,753206","-77,749355","80,09",206,95074,Inactivo,1983,Agrícola
+PZ027,Barranca,"-10,75303","-77,765089","95,78",126,111963,Inactivo,1982,Doméstico
+PZ028,Barranca,"-10,733945","-77,733114","30,9",178,66768,Operativo,1994,Agrícola
+PZ029,Barranca,"-10,737343","-77,759147","60,96",201,92093,Operativo,2009,Doméstico
+PZ030,Barranca,"-10,747384","-77,746781","100,9",196,123184,Inactivo,2018,Industrial
+PZ031,Barranca,"-10,755116","-77,743635","73,49",84,82434,Mantenimiento,2023,Doméstico
+PZ032,Barranca,"-10,73107","-77,765024","31,42",68,44437,Operativo,2003,Doméstico
+PZ033,Barranca,"-10,733261","-77,737623","29,24",93,52033,Mantenimiento,1998,Mixto
+PZ034,Barranca,"-10,759636","-77,749098","64,77",20,53191,Mantenimiento,2007,Doméstico
+PZ035,Barranca,"-10,734988","-77,750395","14,01",86,34951,Operativo,2020,Doméstico
+PZ036,Barranca,"-10,743335","-77,753103","19,33",227,102136,Mantenimiento,1982,Agrícola
+PZ037,Barranca,"-10,7348","-77,769949","14,71",195,88142,Mantenimiento,1988,Industrial
+PZ038,Barranca,"-10,742097","-77,740748","117,75",167,134996,Inactivo,1990,Doméstico
+PZ039,Barranca,"-10,733878","-77,752744","17,53",112,45848,Inactivo,2016,Agrícola
+PZ040,Barranca,"-10,755181","-77,743216","14,2",25,28605,Operativo,2009,Doméstico
+PZ041,Barranca,"-10,744661","-77,733534","17,25",216,67575,Mantenimiento,2016,Mixto
+PZ042,Barranca,"-10,737057","-77,761833","58,22",232,87491,Inactivo,1989,Doméstico
+PZ043,Barranca,"-10,739646","-77,759558","7,65",231,80088,Inactivo,1980,Mixto
+PZ044,Barranca,"-10,734777","-77,768602","102,94",88,77703,Inactivo,1998,Mixto
+PZ045,Barranca,"-10,756037","-77,768431","113,11",134,92426,Inactivo,1991,Doméstico
+PZ046,Barranca,"-10,74006","-77,745618","93,87",144,98163,Operativo,2024,Mixto
+PZ047,Barranca,"-10,742428","-77,744121","88,9",60,65823,Operativo,2009,Industrial
+PZ048,Barranca,"-10,73644","-77,759408","39,47",205,93439,Inactivo,2017,Agrícola
+PZ049,Barranca,"-10,741095","-77,736544","99,73",92,88077,Operativo,2009,Doméstico
+PZ050,Barranca,"-10,759408","-77,744033","101,66",235,123351,Operativo,1989,Agrícola
+PZ051,Barranca,"-10,7542","-77,737952","69,38",93,61054,Operativo,1984,Agrícola
+PZ052,Barranca,"-10,735283","-77,762097","32,63",87,55060,Inactivo,1980,Mixto
+PZ053,Barranca,"-10,750069","-77,753388","46,84",210,101031,Inactivo,2019,Agrícola
+PZ054,Barranca,"-10,733089","-77,759725","93,57",228,114950,Mantenimiento,1983,Doméstico
+PZ055,Barranca,"-10,743403","-77,740998","35,94",203,87119,Operativo,1980,Industrial
+PZ056,Barranca,"-10,750014","-77,757148","43,48",165,79452,Mantenimiento,1983,Mixto
+PZ057,Barranca,"-10,752155","-77,752057","55,6",161,81924,Operativo,1994,Agrícola
+PZ058,Barranca,"-10,744263","-77,730567","48,34",76,50822,Inactivo,2015,Mixto
+PZ059,Barranca,"-10,757483","-77,763868","5,13",64,32290,Operativo,1998,Mixto
+PZ060,Barranca,"-10,74902","-77,767777","86,05",187,107013,Operativo,2019,Industrial
+PZ061,Barranca,"-10,758105","-77,746294","45,25",173,81387,Inactivo,1981,Doméstico
+PZ062,Barranca,"-10,753678","-77,739755","69,45",107,76503,Mantenimiento,1991,Doméstico
+PZ063,Barranca,"-10,742136","-77,746548","20,51",98,46376,Mantenimiento,1981,Industrial
+PZ064,Barranca,"-10,750093","-77,734283","27,96",122,69133,Inactivo,1989,Doméstico
+PZ065,Barranca,"-10,753561","-77,745405","89,12",134,100659,Inactivo,1997,Agrícola
+PZ066,Barranca,"-10,750305","-77,74357","62,42",200,105724,Mantenimiento,2007,Agrícola
+PZ067,Barranca,"-10,741176","-77,744676","94,25",79,81972,Inactivo,2025,Mixto
+PZ068,Barranca,"-10,753743","-77,734942","99,11",207,119492,Operativo,2003,Agrícola
+PZ069,Barranca,"-10,737802","-77,760664","20,2",91,52339,Inactivo,2014,Agrícola
+PZ070,Barranca,"-10,73731","-77,738505","82,22",214,124906,Mantenimiento,1980,Mixto
+PZ071,Barranca,"-10,735137","-77,745528","54,61",204,85448,Inactivo,1980,Agrícola
+PZ072,Barranca,"-10,738426","-77,749302","65,2",98,84153,Inactivo,2003,Mixto
+PZ073,Barranca,"-10,734995","-77,733767","85,5",233,139663,Mantenimiento,2011,Agrícola
+PZ074,Barranca,"-10,757521","-77,769977","108,71",155,92487,Operativo,1985,Mixto
+PZ075,Barranca,"-10,748204","-77,738123","86,01",225,130530,Mantenimiento,1997,Industrial
+PZ076,Barranca,"-10,731941","-77,755681","26,18",86,57048,Operativo,2001,Industrial
+PZ077,Barranca,"-10,752331","-77,757358","79,56",99,78429,Mantenimiento,2023,Doméstico
+PZ078,Barranca,"-10,732896","-77,745844","3,6",200,81291,Inactivo,1983,Mixto
+PZ079,Barranca,"-10,755532","-77,768422","16,95",93,43759,Operativo,1994,Doméstico
+PZ080,Barranca,"-10,746421","-77,737648","115,25",102,101794,Operativo,2018,Industrial
+PZ081,Barranca,"-10,736125","-77,737094","67,73",134,76921,Operativo,2004,Industrial
+PZ082,Barranca,"-10,748994","-77,756998","115,4",158,124562,Mantenimiento,2003,Agrícola
+PZ083,Barranca,"-10,732413","-77,763607","57,97",240,98745,Mantenimiento,2006,Agrícola
+PZ084,Barranca,"-10,741367","-77,746045","15,82",181,80998,Mantenimiento,2001,Mixto
+PZ085,Barranca,"-10,740869","-77,74974","85,1",115,82822,Inactivo,1998,Mixto
+PZ086,Barranca,"-10,750931","-77,733845","96,7",85,75960,Inactivo,1981,Agrícola
+PZ087,Barranca,"-10,730869","-77,769967","14,82",138,51720,Inactivo,2023,Industrial
+PZ088,Barranca,"-10,754986","-77,741471","114,93",117,113082,Mantenimiento,2025,Industrial
+PZ089,Barranca,"-10,734801","-77,758054","24,92",131,73119,Operativo,1999,Agrícola
+PZ090,Barranca,"-10,757569","-77,742603","77,32",208,112036,Operativo,1984,Mixto
+PZ091,Barranca,"-10,738432","-77,75515","8,29",234,77705,Mantenimiento,1992,Agrícola
+PZ092,Barranca,"-10,738857","-77,753695","72,35",120,97421,Inactivo,2018,Doméstico
+PZ093,Barranca,"-10,759032","-77,738614","101,27",153,94021,Mantenimiento,2009,Doméstico
+PZ094,Barranca,"-10,758405","-77,769841","2,14",129,42167,Operativo,2011,Doméstico
+PZ095,Barranca,"-10,741668","-77,747428","62,7",42,59576,Mantenimiento,2009,Mixto
+PZ096,Barranca,"-10,73211","-77,763868","3,24",97,44142,Mantenimiento,2004,Doméstico
+PZ097,Barranca,"-10,754311","-77,768412","31,49",215,101666,Operativo,2017,Agrícola
+PZ098,Barranca,"-10,744745","-77,731292","6,4",119,46159,Operativo,2004,Agrícola
+PZ099,Barranca,"-10,747423","-77,75787","101,25",160,92968,Operativo,1989,Agrícola
+PZ100,Barranca,"-10,758999","-77,762949","8,95",55,27879,Inactivo,2010,Agrícola
+PZ101,Paramonga,"-10,656236","-77,82778","89,94",180,116114,Inactivo,1997,Industrial
+PZ102,Paramonga,"-10,671003","-77,8086","29,97",29,28201,Mantenimiento,1999,Agrícola
+PZ103,Paramonga,"-10,679884","-77,813322","63,53",168,104888,Inactivo,2015,Doméstico
+PZ104,Paramonga,"-10,678581","-77,819222","109,39",123,88311,Inactivo,1985,Agrícola
+PZ105,Paramonga,"-10,661661","-77,818935","105,88",74,88719,Mantenimiento,2015,Mixto
+PZ106,Paramonga,"-10,657954","-77,812229","35,31",167,86464,Inactivo,1995,Mixto
+PZ107,Paramonga,"-10,660027","-77,819855","117,77",111,95770,Inactivo,1983,Agrícola
+PZ108,Paramonga,"-10,650962","-77,825436","32,75",230,85039,Inactivo,1980,Industrial
+PZ109,Paramonga,"-10,662615","-77,811378","71,85",122,73783,Operativo,1982,Doméstico
+PZ110,Paramonga,"-10,652065","-77,824894","85,1",196,117415,Inactivo,2022,Agrícola
+PZ111,Paramonga,"-10,67152","-77,810028","82,68",28,70062,Mantenimiento,2007,Mixto
+PZ112,Paramonga,"-10,650782","-77,83797","27,33",232,106709,Mantenimiento,1995,Industrial
+PZ113,Paramonga,"-10,659887","-77,834158","24,98",216,83740,Mantenimiento,2024,Mixto
+PZ114,Paramonga,"-10,66655","-77,83043","53,39",26,36451,Inactivo,2005,Industrial
+PZ115,Paramonga,"-10,651226","-77,806613","79,53",96,75890,Inactivo,2016,Industrial
+PZ116,Paramonga,"-10,658183","-77,813752","38,02",196,101342,Inactivo,1981,Agrícola
+PZ117,Paramonga,"-10,658235","-77,830669","72,69",218,105191,Operativo,2008,Mixto
+PZ118,Paramonga,"-10,651042","-77,827348","98,28",183,97873,Inactivo,2004,Industrial
+PZ119,Paramonga,"-10,651728","-77,827157","109,64",85,84580,Operativo,1987,Industrial
+PZ120,Paramonga,"-10,678669","-77,839452","87,29",20,59611,Mantenimiento,2012,Industrial
+PZ121,Paramonga,"-10,657324","-77,828069","74,64",236,117001,Mantenimiento,2023,Agrícola
+PZ122,Paramonga,"-10,652786","-77,830538","87,15",91,84794,Mantenimiento,1981,Industrial
+PZ123,Paramonga,"-10,67639","-77,824492","100,88",178,113506,Operativo,2009,Agrícola
+PZ124,Paramonga,"-10,665295","-77,805459","21,8",116,65981,Mantenimiento,1980,Doméstico
+PZ125,Paramonga,"-10,679164","-77,810514","62,99",206,107714,Mantenimiento,1980,Industrial
+PZ126,Paramonga,"-10,669658","-77,809518","93,31",79,88945,Mantenimiento,2024,Doméstico
+PZ127,Paramonga,"-10,662702","-77,830779","38,59",91,60246,Inactivo,1987,Doméstico
+PZ128,Paramonga,"-10,677274","-77,815729","94,7",121,83051,Inactivo,1981,Agrícola
+PZ129,Paramonga,"-10,653489","-77,80276","21,01",84,43787,Mantenimiento,1991,Agrícola
+PZ130,Paramonga,"-10,650305","-77,82221","36,97",131,77710,Operativo,2011,Industrial
+PZ131,Paramonga,"-10,656283","-77,816656","42,47",26,39186,Mantenimiento,1980,Mixto
+PZ132,Paramonga,"-10,650721","-77,835302","59,67",154,79946,Operativo,2018,Industrial
+PZ133,Paramonga,"-10,673038","-77,816812","101,59",190,114428,Inactivo,1990,Mixto
+PZ134,Paramonga,"-10,660284","-77,811066","69,67",164,112421,Mantenimiento,1980,Mixto
+PZ135,Paramonga,"-10,677441","-77,82831","93,89",200,134232,Mantenimiento,2021,Industrial
+PZ136,Paramonga,"-10,674115","-77,825801","64,75",171,104899,Inactivo,1990,Industrial
+PZ137,Paramonga,"-10,668627","-77,823757","105,1",126,102922,Operativo,2009,Doméstico
+PZ138,Paramonga,"-10,672324","-77,831742","87,27",186,122910,Operativo,1986,Agrícola
+PZ139,Paramonga,"-10,666343","-77,808311","74,08",218,90055,Operativo,1986,Industrial
+PZ140,Paramonga,"-10,658841","-77,800283","73,26",81,65650,Inactivo,1999,Industrial
+PZ141,Paramonga,"-10,672663","-77,825575","43,5",58,48448,Mantenimiento,2025,Doméstico
+PZ142,Paramonga,"-10,664216","-77,802507","7,67",175,69495,Mantenimiento,2003,Doméstico
+PZ143,Paramonga,"-10,667677","-77,816986","21,92",148,58697,Inactivo,1983,Doméstico
+PZ144,Paramonga,"-10,657887","-77,838104","9,44",82,44103,Mantenimiento,1981,Agrícola
+PZ145,Paramonga,"-10,666414","-77,82974","29,91",236,89289,Operativo,2000,Industrial
+PZ146,Paramonga,"-10,672932","-77,828763","3,77",182,57769,Operativo,2021,Agrícola
+PZ147,Paramonga,"-10,651811","-77,80519","118,49",57,84593,Mantenimiento,2009,Industrial
+PZ148,Paramonga,"-10,665423","-77,825851","34,7",213,88625,Inactivo,2010,Mixto
+PZ149,Paramonga,"-10,67489","-77,825442","32,98",122,65043,Operativo,2018,Industrial
+PZ150,Paramonga,"-10,666482","-77,834332","40,95",224,92762,Mantenimiento,2001,Mixto
+PZ151,Paramonga,"-10,664164","-77,838289","90,67",245,114857,Operativo,2018,Mixto
+PZ152,Paramonga,"-10,672878","-77,81194","91,37",143,111672,Inactivo,2011,Doméstico
+PZ153,Paramonga,"-10,665933","-77,835127","68,96",148,103299,Inactivo,1987,Mixto
+PZ154,Paramonga,"-10,669823","-77,807618","8,26",181,76482,Inactivo,2019,Industrial
+PZ155,Paramonga,"-10,651138","-77,819812","46,32",99,58309,Inactivo,2016,Agrícola
+PZ156,Paramonga,"-10,667225","-77,822515","100,13",241,133935,Operativo,2003,Agrícola
+PZ157,Paramonga,"-10,670677","-77,829123","50,03",27,40944,Mantenimiento,2013,Doméstico
+PZ158,Paramonga,"-10,672362","-77,827849","96,87",45,61426,Operativo,1997,Mixto
+PZ159,Paramonga,"-10,677115","-77,825233","23,7",199,93544,Operativo,2004,Doméstico
+PZ160,Paramonga,"-10,67622","-77,828515","73,18",185,97544,Operativo,1994,Agrícola
+PZ161,Paramonga,"-10,665363","-77,804558","24,45",112,47927,Inactivo,2025,Industrial
+PZ162,Paramonga,"-10,65521","-77,839419","4,29",116,43562,Inactivo,2018,Doméstico
+PZ163,Paramonga,"-10,664511","-77,834875","54,9",56,48271,Operativo,2011,Industrial
+PZ164,Paramonga,"-10,670421","-77,821291","83,33",48,54926,Operativo,1993,Mixto
+PZ165,Paramonga,"-10,652096","-77,806826","69,81",51,63350,Mantenimiento,1990,Doméstico
+PZ166,Paramonga,"-10,655878","-77,830305","114,87",136,87418,Inactivo,2010,Mixto
+PZ167,Paramonga,"-10,677081","-77,837022",58,157,93803,Mantenimiento,1987,Mixto
+PZ168,Paramonga,"-10,666629","-77,838452","65,06",162,107320,Operativo,1982,Industrial
+PZ169,Paramonga,"-10,65947","-77,828128","23,39",98,45245,Operativo,1991,Mixto
+PZ170,Paramonga,"-10,658653","-77,827983","24,01",157,58125,Operativo,2015,Mixto
+PZ171,Paramonga,"-10,658556","-77,829563","102,73",235,123591,Mantenimiento,1993,Agrícola
+PZ172,Paramonga,"-10,658996","-77,831304","75,37",132,87335,Inactivo,1991,Agrícola
+PZ173,Paramonga,"-10,667334","-77,824726","10,7",164,76339,Inactivo,1987,Doméstico
+PZ174,Paramonga,"-10,667456","-77,806414","94,98",30,73214,Mantenimiento,2007,Industrial
+PZ175,Paramonga,"-10,674453","-77,826226","8,36",108,45225,Inactivo,2013,Agrícola
+PZ176,Paramonga,"-10,668563","-77,836353","66,01",109,68374,Operativo,2012,Doméstico
+PZ177,Paramonga,"-10,665492","-77,834051","33,65",223,107151,Operativo,2018,Mixto
+PZ178,Paramonga,"-10,677705","-77,807383","63,5",224,112910,Operativo,2001,Mixto
+PZ179,Paramonga,"-10,658243","-77,805025","47,59",112,76491,Mantenimiento,1984,Industrial
+PZ180,Paramonga,"-10,659021","-77,830603","4,34",102,40623,Mantenimiento,2005,Industrial
+PZ181,Paramonga,"-10,675534","-77,823539","99,15",131,95172,Operativo,1985,Agrícola
+PZ182,Paramonga,"-10,651705","-77,810009","63,45",245,93757,Operativo,1996,Industrial
+PZ183,Paramonga,"-10,659997","-77,817987","57,49",73,49097,Operativo,2020,Industrial
+PZ184,Paramonga,"-10,670477","-77,81122","20,59",191,67880,Inactivo,1982,Doméstico
+PZ185,Paramonga,"-10,653206","-77,831773","108,82",62,77450,Operativo,1987,Industrial
+PZ186,Paramonga,"-10,671215","-77,823433","109,98",196,126572,Mantenimiento,2005,Mixto
+PZ187,Paramonga,"-10,658861","-77,826776","27,73",41,36359,Mantenimiento,2012,Industrial
+PZ188,Paramonga,"-10,675365","-77,80222","81,67",51,67237,Operativo,1996,Mixto
+PZ189,Paramonga,"-10,651848","-77,815056","113,38",229,111772,Operativo,2009,Industrial
+PZ190,Paramonga,"-10,671414","-77,805021","37,38",223,93698,Operativo,2024,Industrial
+PZ191,Paramonga,"-10,660601","-77,839157","33,11",127,73376,Operativo,2021,Industrial
+PZ192,Paramonga,"-10,654259","-77,80953","59,44",26,47425,Mantenimiento,2011,Agrícola
+PZ193,Paramonga,"-10,651042","-77,809889","13,84",49,35538,Operativo,1984,Industrial
+PZ194,Paramonga,"-10,665042","-77,833026","113,25",83,81958,Operativo,1990,Agrícola
+PZ195,Paramonga,"-10,667827","-77,839189","84,6",207,108273,Operativo,1996,Industrial
+PZ196,Paramonga,"-10,67612","-77,812896","74,35",113,65174,Mantenimiento,2001,Doméstico
+PZ197,Paramonga,"-10,661278","-77,813606","112,12",247,117468,Inactivo,2017,Agrícola
+PZ198,Paramonga,"-10,653181","-77,809182","55,48",211,120426,Operativo,2020,Industrial
+PZ199,Paramonga,"-10,65686","-77,822079","76,3",71,65777,Inactivo,2011,Doméstico
+PZ200,Paramonga,"-10,666881","-77,817286","59,87",191,90336,Inactivo,1984,Agrícola
+PZ201,Pativilca,"-10,698721","-77,756202","74,44",108,65776,Mantenimiento,2005,Agrícola
+PZ202,Pativilca,"-10,69475","-77,765508","49,74",196,82823,Mantenimiento,1987,Industrial
+PZ203,Pativilca,"-10,704433","-77,787183","58,83",181,75718,Operativo,2019,Doméstico
+PZ204,Pativilca,"-10,697755","-77,779009","97,99",218,131629,Operativo,2021,Mixto
+PZ205,Pativilca,"-10,698958","-77,788811","61,26",35,51854,Inactivo,1984,Mixto
+PZ206,Pativilca,"-10,691968","-77,780893","26,68",70,43719,Inactivo,2003,Mixto
+PZ207,Pativilca,"-10,699455","-77,753134","34,53",49,36742,Mantenimiento,2006,Mixto
+PZ208,Pativilca,"-10,685364","-77,765882","109,83",50,67688,Operativo,2005,Doméstico
+PZ209,Pativilca,"-10,69505","-77,765351","74,64",148,81610,Mantenimiento,1998,Agrícola
+PZ210,Pativilca,"-10,707208","-77,761602","98,85",188,112017,Inactivo,1981,Industrial
+PZ211,Pativilca,"-10,684339","-77,780088","2,02",141,57589,Inactivo,2004,Mixto
+PZ212,Pativilca,"-10,704277","-77,779322","75,29",65,66787,Inactivo,2001,Mixto
+PZ213,Pativilca,"-10,690789","-77,762772","39,69",27,44987,Operativo,1984,Agrícola
+PZ214,Pativilca,"-10,704252","-77,758907","54,56",137,69177,Mantenimiento,1995,Industrial
+PZ215,Pativilca,"-10,683214","-77,78792","64,9",62,64449,Operativo,2025,Agrícola
+PZ216,Pativilca,"-10,69114","-77,758773","102,58",106,76113,Inactivo,1987,Agrícola
+PZ217,Pativilca,"-10,699272","-77,760291","4,53",206,76450,Operativo,1987,Agrícola
+PZ218,Pativilca,"-10,705487","-77,755852","56,66",149,68575,Operativo,1987,Agrícola
+PZ219,Pativilca,"-10,686509","-77,756452","80,86",96,84726,Operativo,1986,Agrícola
+PZ220,Pativilca,"-10,703086","-77,789176","58,47",117,85276,Mantenimiento,1980,Mixto
+PZ221,Pativilca,"-10,702778","-77,750036","29,14",164,73110,Operativo,1988,Mixto
+PZ222,Pativilca,"-10,706344","-77,765996","73,6",60,54414,Mantenimiento,1998,Industrial
+PZ223,Pativilca,"-10,705915","-77,756237","6,82",47,26483,Operativo,2015,Industrial
+PZ224,Pativilca,"-10,706021","-77,786225","98,73",33,68902,Mantenimiento,1997,Agrícola
+PZ225,Pativilca,"-10,686191","-77,776647","99,2",208,135514,Operativo,1992,Industrial
+PZ226,Pativilca,"-10,691741","-77,778693","43,82",113,56415,Operativo,1995,Industrial
+PZ227,Pativilca,"-10,695227","-77,767775","8,97",40,23530,Mantenimiento,2010,Doméstico
+PZ228,Pativilca,"-10,689811","-77,788025","35,34",167,63407,Operativo,2019,Agrícola
+PZ229,Pativilca,"-10,698304","-77,759045",80,50,63687,Operativo,2019,Mixto
+PZ230,Pativilca,"-10,697031","-77,785937","109,95",140,94297,Operativo,1995,Mixto
+PZ231,Pativilca,"-10,699953","-77,751848","47,05",192,95349,Inactivo,2004,Mixto
+PZ232,Pativilca,"-10,705265","-77,757062","91,46",171,124719,Inactivo,1997,Agrícola
+PZ233,Pativilca,"-10,692455","-77,759536","25,53",228,75822,Mantenimiento,2013,Industrial
+PZ234,Pativilca,"-10,687546","-77,777797","6,38",156,63641,Inactivo,2009,Industrial
+PZ235,Pativilca,"-10,707878","-77,760115","42,55",192,105736,Operativo,2019,Mixto
+PZ236,Pativilca,"-10,683795","-77,755365","102,41",26,62171,Inactivo,1994,Mixto
+PZ237,Pativilca,"-10,709624","-77,77275","56,86",53,57060,Operativo,2020,Agrícola
+PZ238,Pativilca,"-10,692016","-77,757083","63,15",104,61606,Operativo,1995,Mixto
+PZ239,Pativilca,"-10,69564","-77,750636","72,93",46,51656,Mantenimiento,2000,Industrial
+PZ240,Pativilca,"-10,684206","-77,76753","33,8",185,97150,Operativo,1996,Mixto
+PZ241,Pativilca,"-10,684405","-77,750736","5,18",173,59582,Mantenimiento,1983,Industrial
+PZ242,Pativilca,"-10,694736","-77,786887","118,61",110,107639,Operativo,1984,Mixto
+PZ243,Pativilca,"-10,689482","-77,781241","49,92",91,64970,Operativo,2023,Agrícola
+PZ244,Pativilca,"-10,686864","-77,752211","105,74",237,152123,Inactivo,2011,Industrial
+PZ245,Pativilca,"-10,685698","-77,767381","53,37",217,93614,Inactivo,2000,Agrícola
+PZ246,Pativilca,"-10,706128","-77,785449","90,14",220,108944,Mantenimiento,1984,Mixto
+PZ247,Pativilca,"-10,703631","-77,752927","59,88",45,47332,Inactivo,1998,Doméstico
+PZ248,Pativilca,"-10,702846","-77,786862","51,4",180,85738,Mantenimiento,2023,Agrícola
+PZ249,Pativilca,"-10,680076","-77,775661","33,48",77,52169,Inactivo,2023,Industrial
+PZ250,Pativilca,"-10,707435","-77,762526","20,56",194,62932,Operativo,2014,Mixto
+PZ251,Pativilca,"-10,681837","-77,77987","75,04",24,47978,Operativo,2008,Doméstico
+PZ252,Pativilca,"-10,686118","-77,760382","75,19",162,93907,Inactivo,1999,Doméstico
+PZ253,Pativilca,"-10,695286","-77,78205","59,43",38,47774,Mantenimiento,2007,Agrícola
+PZ254,Pativilca,"-10,693452","-77,783535","54,55",79,71500,Mantenimiento,1991,Agrícola
+PZ255,Pativilca,"-10,683501","-77,764954","28,12",88,52749,Operativo,2006,Agrícola
+PZ256,Pativilca,"-10,705074","-77,781072","59,47",186,110325,Operativo,2001,Mixto
+PZ257,Pativilca,"-10,682806","-77,781856","85,64",176,121926,Inactivo,2003,Mixto
+PZ258,Pativilca,"-10,691187","-77,775198","62,73",63,68136,Mantenimiento,1989,Mixto
+PZ259,Pativilca,"-10,681344","-77,781855","101,73",120,91963,Mantenimiento,2007,Doméstico
+PZ260,Pativilca,"-10,685366","-77,776188","30,44",194,89950,Operativo,1991,Mixto
+PZ261,Pativilca,"-10,700649","-77,751607","25,33",161,72913,Inactivo,2018,Agrícola
+PZ262,Pativilca,"-10,698193","-77,784728","15,73",104,40581,Operativo,1986,Industrial
+PZ263,Pativilca,"-10,681403","-77,751507",105,163,118499,Operativo,1997,Agrícola
+PZ264,Pativilca,"-10,694043","-77,787484","11,26",131,50983,Mantenimiento,2022,Doméstico
+PZ265,Pativilca,"-10,692066","-77,763619","49,67",137,61160,Operativo,1981,Agrícola
+PZ266,Pativilca,"-10,691482","-77,777194","102,97",230,135565,Operativo,1982,Mixto
+PZ267,Pativilca,"-10,696023","-77,774859","38,36",42,33518,Inactivo,1990,Mixto
+PZ268,Pativilca,"-10,70587","-77,76039","40,17",145,85686,Inactivo,1983,Doméstico
+PZ269,Pativilca,"-10,704559","-77,751265","78,9",22,67223,Operativo,1989,Industrial
+PZ270,Pativilca,"-10,697052","-77,771527","18,09",225,102512,Operativo,1982,Mixto
+PZ271,Pativilca,"-10,684851","-77,762428","68,56",188,103321,Inactivo,1982,Mixto
+PZ272,Pativilca,"-10,705054","-77,756228","66,74",135,76260,Mantenimiento,2019,Agrícola
+PZ273,Pativilca,"-10,709594","-77,781243","83,53",221,120029,Inactivo,1981,Industrial
+PZ274,Pativilca,"-10,694615","-77,768621","85,36",152,89212,Mantenimiento,2022,Agrícola
+PZ275,Pativilca,"-10,702966","-77,769971","25,02",56,44713,Inactivo,1984,Agrícola
+PZ276,Pativilca,"-10,704408","-77,785681","36,35",201,96965,Inactivo,1988,Industrial
+PZ277,Pativilca,"-10,708098","-77,775106","56,86",28,52211,Operativo,1982,Doméstico
+PZ278,Pativilca,"-10,698611","-77,752339","92,48",204,100512,Operativo,1991,Industrial
+PZ279,Pativilca,"-10,704563","-77,781657","37,03",167,68359,Inactivo,1996,Mixto
+PZ280,Pativilca,"-10,709076","-77,767449","51,28",53,41484,Mantenimiento,2001,Industrial
+PZ281,Pativilca,"-10,692984","-77,786579","63,86",169,109009,Inactivo,2025,Agrícola
+PZ282,Pativilca,"-10,687919","-77,770792","117,83",68,90452,Inactivo,2011,Mixto
+PZ283,Pativilca,"-10,693321","-77,773584","109,46",21,58595,Mantenimiento,2025,Doméstico
+PZ284,Pativilca,"-10,702421","-77,772558","22,61",114,53368,Mantenimiento,2006,Doméstico
+PZ285,Pativilca,"-10,684404","-77,759237","43,32",182,86569,Operativo,1985,Industrial
+PZ286,Pativilca,"-10,69668","-77,774254","29,22",208,74308,Operativo,2019,Mixto
+PZ287,Pativilca,"-10,683178","-77,782645","2,15",219,78190,Inactivo,1986,Agrícola
+PZ288,Pativilca,"-10,686985","-77,777011","4,18",61,26225,Mantenimiento,2012,Doméstico
+PZ289,Pativilca,"-10,700388","-77,788435","38,65",64,44685,Operativo,2024,Mixto
+PZ290,Pativilca,"-10,706824","-77,772651","65,38",241,124723,Operativo,1986,Mixto
+PZ291,Pativilca,"-10,706435","-77,776419","78,87",66,59561,Operativo,2024,Mixto
+PZ292,Pativilca,"-10,697062","-77,751816","107,11",199,138856,Inactivo,1988,Industrial
+PZ293,Pativilca,"-10,689537","-77,787726","28,79",45,36221,Mantenimiento,1990,Doméstico
+PZ294,Pativilca,"-10,689067","-77,777839","6,69",60,32440,Inactivo,1992,Industrial
+PZ295,Pativilca,"-10,689194","-77,756165","84,71",236,132874,Mantenimiento,2013,Agrícola
+PZ296,Pativilca,"-10,700461","-77,773633","79,91",84,89522,Mantenimiento,2013,Mixto
+PZ297,Pativilca,"-10,708501","-77,775908","26,29",194,92725,Operativo,2012,Mixto
+PZ298,Pativilca,"-10,700773","-77,785866","102,25",186,132083,Inactivo,1998,Mixto
+PZ299,Pativilca,"-10,696669","-77,753748","64,59",175,95725,Inactivo,2005,Mixto
+PZ300,Pativilca,"-10,685861","-77,775357","93,07",39,55222,Mantenimiento,2020,Mixto
+PZ301,Supe,"-10,805921","-77,723963",47,24,34270,Mantenimiento,2020,Mixto
+PZ302,Supe,"-10,781673","-77,728037","114,62",238,134052,Operativo,2013,Industrial
+PZ303,Supe,"-10,786661","-77,713826","16,36",64,37710,Inactivo,1999,Mixto
+PZ304,Supe,"-10,805077","-77,708612","24,59",196,81256,Inactivo,2020,Agrícola
+PZ305,Supe,"-10,798459","-77,713716","27,95",175,79903,Mantenimiento,2020,Agrícola
+PZ306,Supe,"-10,796089","-77,726019","118,58",63,79394,Operativo,2015,Industrial
+PZ307,Supe,"-10,780978","-77,729186","57,88",87,60519,Inactivo,1981,Industrial
+PZ308,Supe,"-10,786261","-77,716792","84,11",128,98506,Mantenimiento,2020,Industrial
+PZ309,Supe,"-10,794385","-77,690897","6,09",227,82786,Inactivo,1989,Mixto
+PZ310,Supe,"-10,789761","-77,729276","116,73",135,95586,Inactivo,2008,Industrial
+PZ311,Supe,"-10,801842","-77,71065","76,51",78,74170,Operativo,2000,Industrial
+PZ312,Supe,"-10,806839","-77,715599","11,25",65,30685,Inactivo,1991,Mixto
+PZ313,Supe,"-10,7906","-77,701461","27,63",223,92824,Operativo,2004,Mixto
+PZ314,Supe,"-10,808123","-77,69143","66,2",90,75446,Mantenimiento,2010,Agrícola
+PZ315,Supe,"-10,780031","-77,719968","30,53",90,48607,Inactivo,1999,Doméstico
+PZ316,Supe,"-10,794228","-77,695911","18,46",126,65260,Inactivo,2015,Doméstico
+PZ317,Supe,"-10,799824","-77,717328","49,45",164,98076,Inactivo,2012,Industrial
+PZ318,Supe,"-10,782967","-77,729152","74,27",90,71159,Mantenimiento,2025,Industrial
+PZ319,Supe,"-10,802874","-77,71236","73,53",20,61314,Mantenimiento,2020,Mixto
+PZ320,Supe,"-10,794262","-77,726289","27,68",63,49426,Operativo,1997,Industrial
+PZ321,Supe,"-10,79882","-77,703169","70,06",250,113945,Mantenimiento,1980,Doméstico
+PZ322,Supe,"-10,784115","-77,706704","98,29",59,63475,Mantenimiento,1993,Agrícola
+PZ323,Supe,"-10,797302","-77,69766","41,37",133,77903,Inactivo,2018,Industrial
+PZ324,Supe,"-10,805598","-77,705543","19,95",67,37890,Inactivo,2003,Industrial
+PZ325,Supe,"-10,806856","-77,72605","92,43",111,76412,Operativo,1981,Doméstico
+PZ326,Supe,"-10,807304","-77,713066","61,5",106,58510,Mantenimiento,2000,Mixto
+PZ327,Supe,"-10,797721","-77,724126","80,64",120,72191,Mantenimiento,1983,Mixto
+PZ328,Supe,"-10,806876","-77,717373","39,44",66,44402,Operativo,2017,Industrial
+PZ329,Supe,"-10,788933","-77,701669","119,18",114,98708,Mantenimiento,2018,Doméstico
+PZ330,Supe,"-10,783439","-77,696451","21,57",206,85760,Operativo,1995,Agrícola
+PZ331,Supe,"-10,798997","-77,728533","13,75",21,26639,Inactivo,1982,Doméstico
+PZ332,Supe,"-10,80116","-77,71494","79,92",239,123763,Inactivo,1988,Industrial
+PZ333,Supe,"-10,782437","-77,72456","50,86",198,101388,Inactivo,1990,Doméstico
+PZ334,Supe,"-10,805114","-77,720299","109,7",119,98616,Mantenimiento,1984,Mixto
+PZ335,Supe,"-10,782877","-77,693175","21,12",123,58406,Operativo,2010,Agrícola
+PZ336,Supe,"-10,801757","-77,725585","19,81",204,65042,Inactivo,2004,Agrícola
+PZ337,Supe,"-10,799332","-77,717564","107,73",146,86648,Mantenimiento,1999,Agrícola
+PZ338,Supe,"-10,801958","-77,707918","35,05",183,97831,Operativo,2023,Mixto
+PZ339,Supe,"-10,781073","-77,697076","85,7",142,108206,Mantenimiento,1983,Mixto
+PZ340,Supe,"-10,797141","-77,695377","35,59",38,37333,Inactivo,1996,Industrial
+PZ341,Supe,"-10,807512","-77,722502","94,24",61,90054,Inactivo,1987,Industrial
+PZ342,Supe,"-10,781624","-77,712241","6,47",230,90700,Operativo,2007,Mixto
+PZ343,Supe,"-10,800788","-77,713939","56,82",249,94372,Mantenimiento,1988,Agrícola
+PZ344,Supe,"-10,801208","-77,695484","73,74",39,69767,Inactivo,2004,Mixto
+PZ345,Supe,"-10,806","-77,721402","6,13",123,49577,Mantenimiento,1987,Industrial
+PZ346,Supe,"-10,795238","-77,719093","24,55",83,46123,Mantenimiento,2021,Agrícola
+PZ347,Supe,"-10,803912","-77,708648","107,21",247,149836,Inactivo,1991,Doméstico
+PZ348,Supe,"-10,801324","-77,707773","72,45",54,58027,Inactivo,1995,Doméstico
+PZ349,Supe,"-10,781987","-77,709477","16,47",178,65791,Operativo,1989,Industrial
+PZ350,Supe,"-10,800715","-77,729194","32,12",203,96645,Inactivo,2021,Mixto
+PZ351,Supe,"-10,805558","-77,716245","25,57",97,55624,Inactivo,1997,Mixto
+PZ352,Supe,"-10,791575","-77,702964","108,97",55,88449,Inactivo,2004,Industrial
+PZ353,Supe,"-10,793392","-77,69817","113,77",145,115589,Mantenimiento,2009,Doméstico
+PZ354,Supe,"-10,795814","-77,721971","56,9",150,75212,Mantenimiento,2002,Mixto
+PZ355,Supe,"-10,793908","-77,699989","8,87",158,63336,Operativo,2002,Industrial
+PZ356,Supe,"-10,792648","-77,698021","46,54",242,101140,Operativo,2001,Agrícola
+PZ357,Supe,"-10,80036","-77,719531","101,7",198,134325,Mantenimiento,1998,Doméstico
+PZ358,Supe,"-10,807231","-77,703881","110,81",164,93383,Mantenimiento,2001,Mixto
+PZ359,Supe,"-10,79356","-77,728937","23,36",159,68089,Mantenimiento,2009,Industrial
+PZ360,Supe,"-10,806886","-77,702371","2,86",217,63281,Mantenimiento,1982,Mixto
+PZ361,Supe,"-10,794558","-77,71353","71,22",149,82068,Mantenimiento,2017,Agrícola
+PZ362,Supe,"-10,793953","-77,697335","99,43",106,106244,Mantenimiento,2019,Agrícola
+PZ363,Supe,"-10,781722","-77,713783","99,8",186,129710,Mantenimiento,1982,Industrial
+PZ364,Supe,"-10,781756","-77,706686","24,48",206,80200,Inactivo,1994,Doméstico
+PZ365,Supe,"-10,789107","-77,726114","115,94",72,85472,Inactivo,2004,Agrícola
+PZ366,Supe,"-10,783782","-77,72117","41,64",231,110178,Inactivo,2017,Agrícola
+PZ367,Supe,"-10,799873","-77,708037","107,93",79,84436,Inactivo,1989,Mixto
+PZ368,Supe,"-10,8039","-77,694831","97,66",181,130269,Inactivo,1993,Doméstico
+PZ369,Supe,"-10,805931","-77,692677","60,98",60,50187,Inactivo,2009,Industrial
+PZ370,Supe,"-10,80232","-77,724235","42,79",187,76681,Mantenimiento,2000,Mixto
+PZ371,Supe,"-10,788381","-77,724169","107,84",122,111785,Inactivo,1980,Agrícola
+PZ372,Supe,"-10,796832","-77,729431","64,92",43,62891,Operativo,2011,Doméstico
+PZ373,Supe,"-10,805755","-77,700326","60,09",181,101357,Operativo,1984,Industrial
+PZ374,Supe,"-10,798447","-77,707879","20,18",146,56810,Operativo,2002,Industrial
+PZ375,Supe,"-10,800705","-77,715316","65,94",24,59288,Inactivo,1985,Mixto
+PZ376,Supe,"-10,793739","-77,717709","14,3",132,66116,Mantenimiento,1985,Doméstico
+PZ377,Supe,"-10,784004","-77,725977","106,04",227,141878,Operativo,1983,Agrícola
+PZ378,Supe,"-10,793218","-77,706044","56,18",42,47729,Operativo,2015,Doméstico
+PZ379,Supe,"-10,80398","-77,727137","84,68",206,128805,Inactivo,1995,Industrial
+PZ380,Supe,"-10,785767","-77,696367","96,16",212,110124,Inactivo,1990,Agrícola
+PZ381,Supe,"-10,784967","-77,729031","53,21",166,91969,Mantenimiento,2000,Doméstico
+PZ382,Supe,"-10,796212","-77,697964","57,02",120,89000,Inactivo,1980,Agrícola
+PZ383,Supe,"-10,791111","-77,69792","89,12",91,73306,Mantenimiento,2013,Agrícola
+PZ384,Supe,"-10,797153","-77,69886","91,06",90,70117,Operativo,2006,Mixto
+PZ385,Supe,"-10,808209","-77,728421","29,46",107,60127,Mantenimiento,1995,Mixto
+PZ386,Supe,"-10,781555","-77,704101","64,32",173,106813,Mantenimiento,1987,Doméstico
+PZ387,Supe,"-10,80209","-77,69759","94,69",196,100258,Mantenimiento,1996,Industrial
+PZ388,Supe,"-10,786807","-77,708331","32,35",132,57140,Operativo,2003,Doméstico
+PZ389,Supe,"-10,781894","-77,712124","70,74",42,63859,Inactivo,1987,Agrícola
+PZ390,Supe,"-10,785183","-77,702805","109,43",54,68756,Mantenimiento,2022,Agrícola
+PZ391,Supe,"-10,792152","-77,690651","62,41",195,98146,Operativo,2013,Mixto
+PZ392,Supe,"-10,805427","-77,719775","101,36",44,75847,Mantenimiento,1991,Industrial
+PZ393,Supe,"-10,807501","-77,727713","71,66",179,111758,Inactivo,1991,Mixto
+PZ394,Supe,"-10,786121","-77,703486","75,32",90,67809,Inactivo,2021,Industrial
+PZ395,Supe,"-10,790636","-77,707954","52,12",171,91694,Mantenimiento,1994,Doméstico
+PZ396,Supe,"-10,788135","-77,698582","12,42",99,43000,Operativo,2021,Industrial
+PZ397,Supe,"-10,789922","-77,692038","20,32",164,56443,Operativo,1993,Doméstico
+PZ398,Supe,"-10,793031","-77,696142","34,03",43,46351,Operativo,1991,Mixto
+PZ399,Supe,"-10,80532","-77,715751","60,62",186,105906,Inactivo,2017,Agrícola
+PZ400,Supe,"-10,802565","-77,695296","49,89",87,62718,Mantenimiento,2019,Agrícola
+PZ401,Supe Puerto,"-10,773071","-77,716039","13,93",111,59100,Operativo,1992,Agrícola
+PZ402,Supe Puerto,"-10,78294","-77,744413","102,49",56,84667,Mantenimiento,1997,Mixto
+PZ403,Supe Puerto,"-10,77641","-77,722572","48,96",73,51408,Inactivo,1980,Doméstico
+PZ404,Supe Puerto,"-10,783507","-77,730409","9,89",180,80406,Operativo,2009,Mixto
+PZ405,Supe Puerto,"-10,780693","-77,718843","110,64",91,95581,Mantenimiento,2008,Agrícola
+PZ406,Supe Puerto,"-10,793587","-77,739487","103,2",157,129678,Mantenimiento,1984,Mixto
+PZ407,Supe Puerto,"-10,778411","-77,7461","102,56",85,82796,Operativo,2019,Industrial
+PZ408,Supe Puerto,"-10,778846","-77,731103","45,26",54,57034,Inactivo,1981,Industrial
+PZ409,Supe Puerto,"-10,788413","-77,717478","69,68",227,128898,Operativo,1985,Mixto
+PZ410,Supe Puerto,"-10,778735","-77,715932","102,82",234,133578,Operativo,1995,Doméstico
+PZ411,Supe Puerto,"-10,798162","-77,71877","87,89",188,90116,Operativo,2012,Doméstico
+PZ412,Supe Puerto,"-10,777206","-77,710417","94,39",40,61346,Inactivo,2014,Doméstico
+PZ413,Supe Puerto,"-10,794495","-77,740914","23,47",60,42658,Operativo,1983,Doméstico
+PZ414,Supe Puerto,"-10,791431","-77,710098","81,79",155,97310,Mantenimiento,1985,Mixto
+PZ415,Supe Puerto,"-10,785325","-77,72163","117,64",201,145558,Inactivo,1991,Doméstico
+PZ416,Supe Puerto,"-10,799846","-77,717403","70,38",196,91489,Mantenimiento,1989,Agrícola
+PZ417,Supe Puerto,"-10,797127","-77,739584","115,78",84,111606,Mantenimiento,2014,Agrícola
+PZ418,Supe Puerto,"-10,780727","-77,733994","109,61",128,91319,Inactivo,1987,Mixto
+PZ419,Supe Puerto,"-10,780578","-77,712219","22,19",156,56474,Operativo,2020,Industrial
+PZ420,Supe Puerto,"-10,789552","-77,71552","82,02",25,60294,Inactivo,2003,Industrial
+PZ421,Supe Puerto,"-10,772758","-77,730528","66,12",208,85408,Inactivo,2020,Industrial
+PZ422,Supe Puerto,"-10,77756","-77,72426","12,35",247,78092,Operativo,2002,Doméstico
+PZ423,Supe Puerto,"-10,793479","-77,720221","81,06",63,59973,Mantenimiento,1985,Industrial
+PZ424,Supe Puerto,"-10,788796","-77,738273","16,45",229,72565,Operativo,1989,Agrícola
+PZ425,Supe Puerto,"-10,797525","-77,716159","71,1",101,89724,Inactivo,2021,Doméstico
+PZ426,Supe Puerto,"-10,797649","-77,728786","13,99",161,76235,Inactivo,1992,Doméstico
+PZ427,Supe Puerto,"-10,799795","-77,721927","101,74",111,110293,Operativo,2024,Agrícola
+PZ428,Supe Puerto,"-10,794328","-77,713889",75,85,66909,Inactivo,1988,Agrícola
+PZ429,Supe Puerto,"-10,793737","-77,729346","116,63",174,136133,Operativo,2016,Mixto
+PZ430,Supe Puerto,"-10,782578","-77,726029","76,39",122,99853,Mantenimiento,1984,Mixto
+PZ431,Supe Puerto,"-10,772126","-77,714302","101,64",80,89229,Operativo,2008,Agrícola
+PZ432,Supe Puerto,"-10,7796","-77,726594","11,77",182,78214,Operativo,1985,Agrícola
+PZ433,Supe Puerto,"-10,799754","-77,71687","60,34",246,111433,Mantenimiento,2020,Mixto
+PZ434,Supe Puerto,"-10,791855","-77,736102","40,78",147,89033,Operativo,1998,Agrícola
+PZ435,Supe Puerto,"-10,788233","-77,74914","108,8",90,74145,Operativo,2025,Doméstico
+PZ436,Supe Puerto,"-10,794285","-77,725954","48,37",177,88808,Operativo,1982,Agrícola
+PZ437,Supe Puerto,"-10,780293","-77,732894","43,81",93,69173,Mantenimiento,1983,Industrial
+PZ438,Supe Puerto,"-10,795846","-77,720457","103,97",93,83539,Mantenimiento,2000,Industrial
+PZ439,Supe Puerto,"-10,775002","-77,721641","116,64",114,95320,Mantenimiento,2005,Doméstico
+PZ440,Supe Puerto,"-10,777722","-77,743636","107,76",145,111679,Mantenimiento,2021,Mixto
+PZ441,Supe Puerto,"-10,792494","-77,717671","92,92",139,84807,Inactivo,2002,Industrial
+PZ442,Supe Puerto,"-10,784663","-77,710859","14,85",166,70854,Operativo,1998,Agrícola
+PZ443,Supe Puerto,"-10,788434","-77,713753","94,37",178,96814,Operativo,1993,Industrial
+PZ444,Supe Puerto,"-10,799784","-77,736977","42,63",99,65380,Mantenimiento,2012,Industrial
+PZ445,Supe Puerto,"-10,795805","-77,710437","94,57",157,107587,Operativo,1981,Mixto
+PZ446,Supe Puerto,"-10,790572","-77,741062","103,26",194,135802,Inactivo,2002,Industrial
+PZ447,Supe Puerto,"-10,786455","-77,713657","19,96",160,69775,Mantenimiento,1994,Industrial
+PZ448,Supe Puerto,"-10,791578","-77,710909","98,23",39,80933,Operativo,2007,Mixto
+PZ449,Supe Puerto,"-10,774442","-77,745544","14,07",140,51937,Mantenimiento,2000,Doméstico
+PZ450,Supe Puerto,"-10,794395","-77,729792","99,64",136,82457,Mantenimiento,1984,Industrial
+PZ451,Supe Puerto,"-10,782856","-77,711402","54,9",145,83478,Inactivo,2020,Agrícola
+PZ452,Supe Puerto,"-10,778755","-77,727255","53,11",104,78994,Inactivo,2014,Doméstico
+PZ453,Supe Puerto,"-10,786702","-77,733531","97,33",158,119499,Mantenimiento,1990,Mixto
+PZ454,Supe Puerto,"-10,781378","-77,718576","73,76",113,79425,Inactivo,2021,Doméstico
+PZ455,Supe Puerto,"-10,778248","-77,722443","85,36",165,114583,Mantenimiento,2023,Industrial
+PZ456,Supe Puerto,"-10,784366","-77,738046","103,43",237,155629,Operativo,1994,Agrícola
+PZ457,Supe Puerto,"-10,772017","-77,737372","2,62",66,25610,Mantenimiento,2005,Industrial
+PZ458,Supe Puerto,"-10,787993","-77,741103","111,04",84,86042,Inactivo,2024,Industrial
+PZ459,Supe Puerto,"-10,786131","-77,743004","13,95",194,85337,Inactivo,1980,Industrial
+PZ460,Supe Puerto,"-10,790228","-77,748542","86,11",110,87866,Mantenimiento,1984,Doméstico
+PZ461,Supe Puerto,"-10,778589","-77,735998","118,77",99,102404,Inactivo,2008,Mixto
+PZ462,Supe Puerto,"-10,785875","-77,742804","43,95",33,47451,Operativo,2017,Industrial
+PZ463,Supe Puerto,"-10,788101","-77,730293","14,55",154,52256,Inactivo,2013,Mixto
+PZ464,Supe Puerto,"-10,790007","-77,74625","2,33",80,33090,Inactivo,2010,Doméstico
+PZ465,Supe Puerto,"-10,795228","-77,741245","32,4",46,37285,Inactivo,1997,Doméstico
+PZ466,Supe Puerto,"-10,77845","-77,716405","36,59",68,54713,Inactivo,2013,Agrícola
+PZ467,Supe Puerto,"-10,773251","-77,737215","71,95",108,77560,Operativo,2015,Doméstico
+PZ468,Supe Puerto,"-10,77115","-77,723117","79,15",245,114734,Inactivo,1980,Industrial
+PZ469,Supe Puerto,"-10,796796","-77,74536","105,93",95,100853,Inactivo,1986,Doméstico
+PZ470,Supe Puerto,"-10,777083","-77,739079","108,27",41,61712,Inactivo,1984,Industrial
+PZ471,Supe Puerto,"-10,776733","-77,724453","12,84",116,44564,Inactivo,1986,Agrícola
+PZ472,Supe Puerto,"-10,786243","-77,74924","70,63",249,110274,Mantenimiento,1986,Agrícola
+PZ473,Supe Puerto,"-10,790611","-77,722775","68,13",70,67711,Mantenimiento,2008,Agrícola
+PZ474,Supe Puerto,"-10,790052","-77,717699","2,89",205,82361,Operativo,1993,Agrícola
+PZ475,Supe Puerto,"-10,771473","-77,725582","68,87",222,91238,Inactivo,1990,Doméstico
+PZ476,Supe Puerto,"-10,773897","-77,726533","106,72",72,74354,Inactivo,2021,Agrícola
+PZ477,Supe Puerto,"-10,786868","-77,732811","107,9",196,136173,Mantenimiento,1996,Industrial
+PZ478,Supe Puerto,"-10,796537","-77,710216","105,35",86,86449,Operativo,2008,Mixto
+PZ479,Supe Puerto,"-10,783809","-77,735448","16,36",245,104326,Operativo,2003,Doméstico
+PZ480,Supe Puerto,"-10,798244","-77,716076","97,87",243,127746,Inactivo,1980,Agrícola
+PZ481,Supe Puerto,"-10,77952","-77,732808","100,91",157,114128,Operativo,2023,Doméstico
+PZ482,Supe Puerto,"-10,787851","-77,747854","24,66",227,104793,Operativo,2021,Agrícola
+PZ483,Supe Puerto,"-10,792851","-77,728021","38,94",224,87743,Inactivo,2012,Doméstico
+PZ484,Supe Puerto,"-10,775326","-77,710659","118,54",98,106141,Operativo,2002,Mixto
+PZ485,Supe Puerto,"-10,79852","-77,72331","81,69",180,124097,Operativo,1989,Mixto
+PZ486,Supe Puerto,"-10,798223","-77,731063","101,33",71,71214,Operativo,1995,Industrial
+PZ487,Supe Puerto,"-10,774404","-77,720232","12,32",187,61325,Mantenimiento,2009,Doméstico
+PZ488,Supe Puerto,"-10,776309","-77,723832","32,04",61,49189,Mantenimiento,2009,Agrícola
+PZ489,Supe Puerto,"-10,790446","-77,73617","47,12",215,112946,Mantenimiento,2010,Industrial
+PZ490,Supe Puerto,"-10,782031","-77,733531","40,94",82,49823,Mantenimiento,1992,Industrial
+PZ491,Supe Puerto,"-10,79743","-77,733468","90,1",166,104676,Mantenimiento,2020,Mixto
+PZ492,Supe Puerto,"-10,78962","-77,729042","69,88",147,75561,Inactivo,1982,Doméstico
+PZ493,Supe Puerto,"-10,786981","-77,720155","23,86",121,64086,Mantenimiento,1984,Industrial
+PZ494,Supe Puerto,"-10,775651","-77,740263","76,03",209,127930,Mantenimiento,2010,Agrícola
+PZ495,Supe Puerto,"-10,779958","-77,729843","21,34",226,98276,Inactivo,1996,Industrial
+PZ496,Supe Puerto,"-10,783364","-77,713145","39,02",75,43480,Inactivo,2005,Agrícola
+PZ497,Supe Puerto,"-10,784334","-77,735046","78,3",193,112320,Operativo,1987,Agrícola
+PZ498,Supe Puerto,"-10,775285","-77,723287","28,59",245,107964,Inactivo,1987,Doméstico
+PZ499,Supe Puerto,"-10,787704","-77,737763","36,7",200,75199,Operativo,1999,Industrial
+PZ500,Supe Puerto,"-10,789991","-77,741089","62,67",147,85370,Operativo,1981,Industrial

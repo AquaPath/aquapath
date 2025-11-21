@@ -101,7 +101,7 @@ def main():
         communities_df, wells_df = load_data()
     
     # Sidebar - Parámetros de optimización
-    st.sidebar.image("https://via.placeholder.com/300x100/2E86AB/FFFFFF?text=AquaPath", use_column_width=True)
+    st.sidebar.image("assets/aquaPath.png", use_column_width=True)
     st.sidebar.markdown("## ⚙️ Parámetros de Optimización")
     
     # Selección de algoritmo
@@ -191,7 +191,7 @@ def main():
             )
         
         with col3:
-            total_demand = filtered_communities['CANTIDAD_DISTRIBUCIÓN'].sum()
+            total_demand = filtered_communities['CANTIDAD_DISTRIBUCION'].sum()
             st.metric(
                 "📊 Demanda Total",
                 f"{total_demand:,} m³",
@@ -215,8 +215,8 @@ def main():
             st.markdown("### 📍 Datos de Comunidades")
             st.dataframe(
                 filtered_communities[[
-                    'DISTRITO', 'ZONA', 'TIPO_DE_SERVICIO', 
-                    'CANTIDAD_DISTRIBUCIÓN', 'VIVIENDAS_BENEFICIADAS'
+                     'DISTRITO', 'ZONA-COMUNIDAD', 'TIPO_DE_SERVICIO', 
+                     'CANTIDAD_DISTRIBUCION', 'VIVIENDAS_BENEFICIADAS'
                 ]].head(10),
                 use_container_width=True,
                 height=300
@@ -240,9 +240,11 @@ def main():
         # Crear un mapa simple con las coordenadas
         map_data = filtered_communities[['COORDENADA_NORTE', 'COORDENADA_ESTE']].copy()
         map_data.columns = ['lat', 'lon']
-        # Convertir UTM a lat/lon aproximado (simplificado)
-        map_data['lat'] = -10.75 + (map_data['lat'] - 8805000) / 111000
-        map_data['lon'] = -77.76 + (map_data['lon'] - 213500) / 111000
+        # Convertir strings con comas a números
+        map_data['lat'] = pd.to_numeric(map_data['lat'].astype(str).str.replace(',', '.'), errors='coerce')
+        map_data['lon'] = pd.to_numeric(map_data['lon'].astype(str).str.replace(',', '.'), errors='coerce')
+        # Eliminar filas con valores nulos
+        map_data = map_data.dropna()
         st.map(map_data, zoom=11)
     
     # TAB 2: Visualización
@@ -335,6 +337,9 @@ def main():
             
             with col2:
                 st.markdown("### 📈 Resultados Principales")
+                # Calcular efficiency
+                G = st.session_state['original_graph']
+                efficiency = ((G.number_of_edges() - mst.number_of_edges()) / G.number_of_edges()) * 100
                 st.markdown(f"""
                 <div class="metric-card">
                     <strong>Reducción de Costos:</strong> {efficiency:.1f}% vs red completa<br>
